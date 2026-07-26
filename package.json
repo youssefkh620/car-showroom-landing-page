@@ -1,0 +1,26 @@
+{
+  "name": "car-showroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefkh620/car-showroom-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yousefkh620/car-showroom-landing-page/issues"
+  },
+  "homepage": "https://github.com/yousefkh620/car-showroom-landing-page#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
