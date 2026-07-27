@@ -1,0 +1,92 @@
+[
+  {
+    "brand": "Ferrari",
+    "model": "SF90 Stradale",
+    "price": "$625,000",
+    "image": "images/car1.svg",
+    "type": "Hybrid",
+    "transmission": "Auto",
+    "power": "986 HP"
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Revuelto",
+    "price": "$608,000",
+    "image": "images/car2.svg",
+    "type": "Hybrid",
+    "transmission": "Auto",
+    "power": "1001 HP"
+  },
+  {
+    "brand": "Porsche",
+    "model": "911 Turbo S",
+    "price": "$230,000",
+    "image": "images/car3.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "640 HP"
+  },
+  {
+    "brand": "Mercedes",
+    "model": "AMG GT 63",
+    "price": "$180,000",
+    "image": "images/car4.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "577 HP"
+  },
+  {
+    "brand": "BMW",
+    "model": "M4 Competition",
+    "price": "$95,000",
+    "image": "images/car5.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "503 HP"
+  },
+  {
+    "brand": "Audi",
+    "model": "RS7 Sportback",
+    "price": "$125,000",
+    "image": "images/car1.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "591 HP"
+  },
+  {
+    "brand": "McLaren",
+    "model": "720S",
+    "price": "$310,000",
+    "image": "images/car2.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "710 HP"
+  },
+  {
+    "brand": "Bentley",
+    "model": "Continental GT",
+    "price": "$250,000",
+    "image": "images/car3.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "650 HP"
+  },
+  {
+    "brand": "Aston Martin",
+    "model": "DB12",
+    "price": "$245,000",
+    "image": "images/car4.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "671 HP"
+  },
+  {
+    "brand": "Rolls Royce",
+    "model": "Ghost",
+    "price": "$350,000",
+    "image": "images/car5.svg",
+    "type": "Gasoline",
+    "transmission": "Auto",
+    "power": "563 HP"
+  }
+]
