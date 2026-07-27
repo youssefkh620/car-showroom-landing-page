@@ -99,3 +99,72 @@ fetch("car.json")
     `;
     });
   });
+
+const reviewsContainer = document.getElementById("reviewsContainer");
+
+fetch("reviews.json")
+  .then((data) => data.json())
+  .then((reviews) => {
+    reviews.forEach((reviewData) => {
+      let stars = "";
+      for (let i = 0; i < reviewData.rating; i++) {
+        stars += `<i class="fa-solid fa-star text-yellow-400"></i>`;
+      }
+
+      reviewsContainer.innerHTML += `
+      <div
+          class="border border-[#F3F4F6] bg-[#F9FAFB] p-7 rounded-2xl drop-shadow-sm"
+        >
+          <p class="text-[#FB2C36] mb-4">${stars}</p>
+          <p class="text-[#4A5565] mb-6">
+            ${reviewData.review}
+          </p>
+          <div class="flex items-center">
+          
+            <h2
+              class="text-white font-primary font-black text-[11px] bg-[#E7000B] py-4 px-3.5 rounded-full ove"
+            >
+              ${reviewData.author.avatarText}
+            </h2>
+            <div class="ml-3">
+              <h2 class="font-primary font-bold text-sm text-[#101828] mb-0.5">
+                ${reviewData.author.name}
+              </h2>
+              <p class="font-primary text-xs text-[#99A1AF]">
+                ${reviewData.author.role}
+              </p>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+  });
+
+/*
+
+<div
+          class="border border-[#F3F4F6] bg-[#F9FAFB] p-7 rounded-2xl drop-shadow-sm"
+        >
+          <p class="text-[#FB2C36] mb-4">stars</p>
+          <p class="text-[#4A5565] mb-6">
+            "Most seamless car buying experience I have ever had. My SF90 was
+            delivered immaculate."
+          </p>
+          <div class="flex items-center">
+            <h2
+              class="text-white font-primary font-black text-[11px] bg-[#E7000B] py-4 px-3.5 rounded-full"
+            >
+              MR
+            </h2>
+            <div class="ml-3">
+              <h2 class="font-primary font-bold text-sm text-[#101828] mb-0.5">
+                Michael Ross
+              </h2>
+              <p class="font-primary text-xs text-[#99A1AF]">
+                Software Engineer
+              </p>
+            </div>
+          </div>
+        </div>
+
+*/

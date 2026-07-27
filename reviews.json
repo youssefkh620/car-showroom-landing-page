@@ -1,0 +1,29 @@
+[
+  {
+    "rating": 5,
+    "review": "Most seamless car buying experience I have ever had. My SF90 was delivered immaculate.",
+    "author": {
+      "name": "James Crawford",
+      "role": "Entrepreneur",
+      "avatarText": "JC"
+    }
+  },
+  {
+    "rating": 4,
+    "review": "Outstanding service from start to finish. The team handled my Porsche 911 purchase with extreme professionalism.",
+    "author": {
+      "name": "Sarah Jenkins",
+      "role": "Product Designer",
+      "avatarText": "SJ"
+    }
+  },
+  {
+    "rating": 3,
+    "review": "Fast delivery and complete transparency throughout the process. Highly recommend for any luxury vehicle purchase.",
+    "author": {
+      "name": "Michael Ross",
+      "role": "Software Engineer",
+      "avatarText": "MR"
+    }
+  }
+]
